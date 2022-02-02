@@ -1,4 +1,5 @@
-### welcome_assignment_answers
+
+# ### welcome_assignment_answers
 ### Input - All eight questions given in the assignment.
 ### Output - The right answer for the specific question.
 
@@ -28,7 +29,6 @@ def welcome_assignment_answers(question):
         answer = 4
     return(answer)
 # Complete all the questions.
-
 
 if __name__ == "__main__":
     #use this space to debug and verify that the program works
