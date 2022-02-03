@@ -27,17 +27,14 @@ def welcome_assignment_answers(question):
         answer = "42b76fe51778764973077a5a94056724"
     #7
     elif question == "Is MD5 a secured hashing algorithm? - Yes/No":
-        print("welcome 7")
         answer = "No"
     #8
     elif question == "What layer from the TCP/IP model the protocol DHCP belongs to? - " \
                      "The answer should be a numeric number":
-        print("welcome 8")
         answer = 5
     #9
     elif question == "What layer of the TCP/IP model the protocol TCP belongs to? - " \
                      "The answer should be a numeric number":
-        print("welcome 9")
         answer = 4
     return(answer)
 # Complete all the questions.
@@ -59,12 +56,10 @@ if __name__ == "__main__":
     #5
     debug_question = "Is a hashed message supposed to be un-hashed? - Yes/No"
     print(welcome_assignment_answers(debug_question))
-    print("Debug 5")
     #6
     debug_question = "What is the MD5 hashing value to the following message: \'NYU Computer Networking\' - " \
                      "Use MD5 hash generator and use the answer in your code"
     print(welcome_assignment_answers(debug_question))
-    print("Debug 6")
     #7
     debug_question = "Is MD5 a secured hashing algorithm? - Yes/No"
     print(welcome_assignment_answers(debug_question))
