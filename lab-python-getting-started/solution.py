@@ -19,12 +19,12 @@ def welcome_assignment_answers(question):
        answer = "No"
    elif question == "What is the MD5 hashing value to the following message: 'NYU Computer Networking' - Use MD5 hash generator and use the answer in your code":
        answer = "42b76fe51778764973077a5a94056724"
-   elif question == "Is MD5 a secured hashing algorithm? - Yes/No":
-       answer = "No"
-   elif question == "What layer from the TCP/IP model the protocol DHCP belongs to? - The answer should be a numeric number":
-        answer = int(4)
-   elif question == "What layer of the TCP/IP model the protocol TCP belongs to? - The answer should be a numeric number":
-       answer = int(4)
+   #elif question == "Is MD5 a secured hashing algorithm? - Yes/No":
+    #   answer = "No"
+   #elif question == "What layer from the TCP/IP model the protocol DHCP belongs to? - The answer should be a numeric number":
+    #    answer = int(4)
+   #elif question == "What layer of the TCP/IP model the protocol TCP belongs to? - The answer should be a numeric number":
+    #   answer = int(4)
    return (answer)
 
 
@@ -45,9 +45,9 @@ if __name__ == "__main__":
    print(welcome_assignment_answers(debug_question))
    debug_question = "What is the MD5 hashing value to the following message: 'NYU Computer Networking' - Use MD5 hash generator and use the answer in your code"
    print(welcome_assignment_answers(debug_question))
-   debug_question = "Is MD5 a secured hashing algorithm? - Yes/No"
-   print(welcome_assignment_answers(debug_question))
-   debug_question = "What layer from the TCP/IP model the protocol DHCP belongs to? - The answer should be a numeric number"
-   print(welcome_assignment_answers(debug_question))
-   debug_question = "What layer of the TCP/IP model the protocol TCP belongs to? - The answer should be a numeric number"
-   print(welcome_assignment_answers(debug_question))
+   #debug_question = "Is MD5 a secured hashing algorithm? - Yes/No"
+   #print(welcome_assignment_answers(debug_question))
+   #debug_question = "What layer from the TCP/IP model the protocol DHCP belongs to? - The answer should be a numeric number"
+   #print(welcome_assignment_answers(debug_question))
+   #debug_question = "What layer of the TCP/IP model the protocol TCP belongs to? - The answer should be a numeric number"
+   #print(welcome_assignment_answers(debug_question))
