@@ -30,10 +30,10 @@ def welcome_assignment_answers(question):
         print("welcome 7")
         answer = "No"
     #8
-    elif question == "What layer from the TCP/IP model the protocol DHCP belongs to? - " \
-                     "The answer should be a numeric number":
-        print("welcome 8")
-        answer = 5
+    #elif question == "What layer from the TCP/IP model the protocol DHCP belongs to? - " \
+    #                 "The answer should be a numeric number":
+    #    print("welcome 8")
+    #    answer = 5
     #9
     elif question == "What layer of the TCP/IP model the protocol TCP belongs to? - " \
                      "The answer should be a numeric number":
@@ -68,9 +68,11 @@ if __name__ == "__main__":
     #7
     debug_question = "Is MD5 a secured hashing algorithm? - Yes/No"
     print(welcome_assignment_answers(debug_question))
+    #8
    # debug_question = "What layer from the TCP/IP model the protocol DHCP belongs to? - " \
    #                  "The answer should be a numeric number"
    # print(welcome_assignment_answers(debug_question))
+   # 9
    # debug_question = "What layer of the TCP/IP model the protocol TCP belongs to? - " \
    #                  "The answer should be a numeric number"
    # print(welcome_assignment_answers(debug_question))
